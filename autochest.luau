@@ -1,4 +1,8 @@
 -- This file was protected using Luraph Obfuscator v14.7 [https://lura.ph/]
+repeat task.wait() until game:IsLoaded()
+task.wait(3) -- đợi thêm cho map load hẳn
+
+-- code chọn phe ở dưới
 getgenv().Team = "Pirates" -- hoặc "Marines"
 
 repeat task.wait() until game:IsLoaded()
